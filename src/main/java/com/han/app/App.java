@@ -1,11 +1,12 @@
 package com.han.app;
 
+import java.util.Map;
+
 import com.google.common.collect.ImmutableList;
 import com.google.inject.Guice;
 import com.google.inject.Injector;
 import com.google.mu.util.stream.BiCollectors;
 import com.google.mu.util.stream.BiStream;
-import java.util.Map;
 
 public class App {
     public static void main(String[] args) {
